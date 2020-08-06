@@ -82,33 +82,33 @@ hr {
 }
 
 .profile {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
 .intro {
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
 .img-pp {
-  width: 25%;
+  width: 30%;
 }
 
 .skill-row {
-  width: 50%;
+  width: 70%;
   margin: 100px auto;
   text-align: left;
 }
 
 .img-left {
-  width: 25%;
+  width: 13%;
   float: left;
   margin-right: 30px;
 }
 
 .img-right {
-  width: 30%;
+  width: 13%;
   float: right;
   margin-left: 30px;
 }
@@ -126,6 +126,7 @@ hr {
 }
 
 .footer-link {
+  color: #11999e;
   padding: 30px;
   text-decoration: none;
 }

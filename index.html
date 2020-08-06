@@ -14,6 +14,13 @@
       href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
       rel="stylesheet"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <script
       src="https://kit.fontawesome.com/62bf52be91.js"
       crossorigin="anonymous"
@@ -21,18 +28,19 @@
   </head>
   <body>
     <div class="top-container">
-      <img class="top-cloud" src="img/cloud.png" alt="" />
-      <img class="top-mid" src="img/cloud.png" alt="" />
-      <h1 class="heading">I'm Aditya</h1>
-      <h2 class="sub-heading">Student Developer</h2>
+      <img class="img-fluid top-cloud" src="img/cloud.png" alt="" />
+      <h1 class="heading text-center h1">I'm Aditya</h1>
+      <h2 class="sub-heading text-center h2">Student Developer</h2>
       <br /><br /><br /><br /><br /><br />
-      <img class="bottom-cloud" src="img/cloud.png" alt="" />
-      <img class="bottom-mid" src="img/cloud.png" alt="" />
-      <img src="img/mountain.png" alt="" />
+      <img class="img-fluid bottom-cloud" src="img/cloud.png" alt="" />
+      <img class="img-fluid bottom-mid" src="img/cloud.png" alt="" />
+      <div class="text-center">
+        <img class="img-fluid" src="img/mountain.png" alt="" />
+      </div>
     </div>
-    <div class="middle-container">
+    <div class="middle-container text-center">
       <div class="profile">
-        <img class="img-pp" src="img/profile.png" alt="" />
+        <img class="img-fluid img-pp" src="img/profile.png" alt="" />
         <h2>Hello.</h2>
         <p class="intro">
           I'm a Student currenltly pursuing in the bachlor of Engneering in
@@ -40,29 +48,39 @@
         </p>
       </div>
       <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
+      <div class="text-center skills">
+        <br />
+        <h2 class="h1"><b class="">My Skills.</b></h2>
         <div class="skill-row">
-          <!-- TODO:  check the images-->
-          <img class="img-size img-left" src="img/webdev.jpg" alt="" />
-          <h3>Web Developer and Designer</h3>
+          <img
+            class="img-fluid img-size img-left"
+            src="img/webdev.jpg"
+            alt=""
+          />
+          <h3>Web Developer</h3>
           <p>
             I'm currently learning Web Development to enhance my skills and
             create a personel website for myself
           </p>
         </div>
+        <br />
         <div class="skill-row">
-          <img class="img-size img-right" src="img/python.png" alt="" />
+          <img
+            class="img-fluid img-size img-right"
+            src="img/python.png"
+            alt=""
+          />
           <h3>Python</h3>
           <p>
             I'm a beginner in python ,But hey I am practicing it every day to
             make it perfect. I can do basic tasks in python .
           </p>
         </div>
+        <br />
         <div class="skill-row">
           <img
             class="img-size img-left"
-            style="width: 12%;"
+            style="width: 7%;"
             src="img/java.svg"
             alt=""
           />
@@ -73,8 +91,13 @@
             more .
           </p>
         </div>
+        <br />
         <div class="skill-row">
-          <img class="img-size img-right" src="img/android.svg" alt="" />
+          <img
+            class="img-fluid img-size img-right"
+            src="img/android.svg"
+            alt=""
+          />
           <h3>Android Developer</h3>
           <p>
             I'm Android developer , I have developed few basic apps like
@@ -82,8 +105,7 @@
           </p>
         </div>
         <div class="skill-row">
-          <!-- TODO:  check the images-->
-          <img class="img-size img-left" src="img/" alt="" />
+          <img class="img-fluid img-size img-left" src="img/" alt="" />
           <h3></h3>
           <p></p>
         </div>
@@ -98,7 +120,7 @@
         <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
       </div>
     </div>
-    <div class="bottom-container">
+    <div class="bottom-container text-center">
       <a class="footer-link" href="https://www.linkedin.com/in/aditya-thakur/"
         ><span class="fa fa-linkedin"> </span
       ></a>
