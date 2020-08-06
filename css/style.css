@@ -50,11 +50,20 @@ hr {
   top: 50px;
   right: 300px;
 }
-
+.top-mid {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+.bottom-mid {
+  position: absolute;
+  top: 300px;
+  right: 300px;
+}
 .bottom-cloud {
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  bottom: 350px;
 }
 
 .top-container {
